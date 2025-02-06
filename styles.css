@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center elements vertically */
+    background-color: black;
+    padding: 10px 15px;
+}
+
+nav a {
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: grey;
+}
+
+.menu-links {
+    display: flex;
+    flex-direction: column; /* Stack links vertically */
+    align-items: center; /* Center links horizontally */
+}
+
+.menu-links a {
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu-links a:hover {
+    background-color: grey;
+}
